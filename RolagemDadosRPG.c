@@ -38,7 +38,7 @@ int main() {
     }
 
     // Mostrar os resultados maiores ou iguais à dificuldade (descontando os resultados igual a 1)
-    printf("\nResultados maiores ou iguais à dificuldade (%d) após ajuste para resultados igual a 1:\n", dificuldade);
+    printf("\nResultados maiores ou iguais à dificuldade (%d):\n", dificuldade);
     for (int i = 0; i < numDados; i++) {
         if (resultados[i] >= dificuldade) {
             printf("%d ", resultados[i]);
